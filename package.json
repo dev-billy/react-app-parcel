@@ -1,8 +1,21 @@
 {
   "name": "react-app-parcel",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "repository": "https://github.com/dev-billy/react-app-parcel",
   "author": "Billy <billypatrick767@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
+    "parcel": "^2.3.2"
+  }
 }
