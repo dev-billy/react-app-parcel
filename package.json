@@ -1,6 +1,6 @@
 {
   "name": "@dev-billy/react-app-parcel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "app.js",
   "source": "src/index.html",
   "scripts": {
