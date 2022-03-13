@@ -1,5 +1,5 @@
 {
-  "name": "react-app-parcel",
+  "name": "@dev-billy/react-app-parcel",
   "version": "1.0.0",
   "main": "app.js",
   "source": "src/index.html",
@@ -9,6 +9,8 @@
   },
   "repository": "https://github.com/dev-billy/react-app-parcel",
   "author": "Billy <billypatrick767@gmail.com>",
+  "description": "React Starter With Parcel",
+  "bin": ".bin/cli.js",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
